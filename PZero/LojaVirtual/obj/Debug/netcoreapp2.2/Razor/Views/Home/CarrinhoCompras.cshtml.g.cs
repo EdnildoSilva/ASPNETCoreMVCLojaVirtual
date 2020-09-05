@@ -18,8 +18,18 @@ using LojaVirtual.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Z\CODE\ProjetoZero\ASPNETCoreMVCLojaVirtual\Seção 08\01_inicio\LojaVirtual\Views\_ViewImports.cshtml"
+using X.PagedList.Mvc.Core;
+
+#line default
+#line hidden
+#line 4 "C:\Z\CODE\ProjetoZero\ASPNETCoreMVCLojaVirtual\Seção 08\01_inicio\LojaVirtual\Views\_ViewImports.cshtml"
+using X.PagedList;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"33981a8a6d87fc8d1c3830b8318d30182e4895d1", @"/Views/Home/CarrinhoCompras.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dbe432dc0fde64388285e47294a860c879dd4e8c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"90799275c998573c5584c7fde9507bc8004803f8", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_CarrinhoCompras : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -102,7 +112,7 @@ using LojaVirtual.Models;
             WriteLiteral(" ");
             EndContext();
             BeginContext(2102, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d15621", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d15962", async() => {
                 BeginContext(2110, 1, true);
                 WriteLiteral("1");
                 EndContext();
@@ -122,7 +132,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(2158, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d16828", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d17169", async() => {
                 BeginContext(2166, 1, true);
                 WriteLiteral("2");
                 EndContext();
@@ -142,7 +152,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(2214, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d18035", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d18376", async() => {
                 BeginContext(2222, 1, true);
                 WriteLiteral("3");
                 EndContext();
@@ -162,7 +172,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(2270, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d19242", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d19583", async() => {
                 BeginContext(2278, 1, true);
                 WriteLiteral("4");
                 EndContext();
@@ -217,7 +227,7 @@ using LojaVirtual.Models;
                                     ");
             EndContext();
             BeginContext(4301, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d112499", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d112840", async() => {
                 BeginContext(4309, 1, true);
                 WriteLiteral("1");
                 EndContext();
@@ -237,7 +247,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(4357, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d113707", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d114048", async() => {
                 BeginContext(4365, 1, true);
                 WriteLiteral("2");
                 EndContext();
@@ -257,7 +267,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(4413, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d114915", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d115256", async() => {
                 BeginContext(4421, 1, true);
                 WriteLiteral("3");
                 EndContext();
@@ -277,7 +287,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(4469, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d116123", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d116464", async() => {
                 BeginContext(4477, 1, true);
                 WriteLiteral("4");
                 EndContext();
@@ -332,7 +342,7 @@ using LojaVirtual.Models;
                                     ");
             EndContext();
             BeginContext(6510, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d119391", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d119732", async() => {
                 BeginContext(6518, 1, true);
                 WriteLiteral("1");
                 EndContext();
@@ -352,7 +362,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(6566, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d120599", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d120940", async() => {
                 BeginContext(6574, 1, true);
                 WriteLiteral("2");
                 EndContext();
@@ -372,7 +382,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(6622, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d121807", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d122148", async() => {
                 BeginContext(6630, 1, true);
                 WriteLiteral("3");
                 EndContext();
@@ -392,7 +402,7 @@ using LojaVirtual.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(6678, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d123015", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33981a8a6d87fc8d1c3830b8318d30182e4895d123356", async() => {
                 BeginContext(6686, 1, true);
                 WriteLiteral("4");
                 EndContext();

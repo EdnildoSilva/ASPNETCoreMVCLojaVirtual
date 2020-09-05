@@ -10,6 +10,11 @@ using LojaVirtual.Repositories;
 using LojaVirtual.Repositories.Contracts;
 using LojaVirtual.Libraries.Sessao;
 using LojaVirtual.Libraries.Login;
+using System.Net.Mail;
+using System;
+using System.Net;
+using LojaVirtual.Libraries.Email;
+using LojaVirtual.Libraries.Middleware;
 
 namespace LojaVirtual
 {
@@ -30,6 +35,22 @@ namespace LojaVirtual
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<INewsletterRepository, NewsletterRepository>();
             services.AddScoped<IColaboradorRepository, ColaboradorRepository>();
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+
+            // SMTP
+            services.AddScoped<SmtpClient>(options=> { 
+                SmtpClient smtp = new SmtpClient()
+                {
+                    Host = Configuration.GetValue<string>("Email:ServerSMTP"),
+                    Port = Configuration.GetValue<int>("Email:ServerPort"),
+                    UseDefaultCredentials = false,
+                    Credentials = new NetworkCredential(Configuration.GetValue<string>("Email:Username"), Configuration.GetValue<string>("Email:Password")),
+                    EnableSsl = true
+                };
+
+                return smtp;
+            });
+            services.AddScoped<GerenciarEmail>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -72,6 +93,7 @@ namespace LojaVirtual
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseSession();
+            app.UseMiddleware<ValidateAntiForgeryTokenMiddleware>();
 
             /* MVC
              * https://www.site.com.br -> Qual controlador ? (Gestao das requisiçoes.) -> Rotas

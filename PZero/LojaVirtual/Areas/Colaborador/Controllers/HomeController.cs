@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace LojaVirtual.Areas.Colaborador.Controllers
 {
     [Area("Colaborador")]
+
     public class HomeController : Controller
     {
         private IColaboradorRepository _repositoryColaborador;
@@ -43,14 +44,14 @@ namespace LojaVirtual.Areas.Colaborador.Controllers
             }
         }
 
-        [ColaboradorAutorizacaoAttribute]
+        [ColaboradorAutorizacao]
         public IActionResult Logout()
         {
             _loginColaborador.Logout();
             return RedirectToAction("Login", "Home");
         }
 
-        [ColaboradorAutorizacaoAttribute]
+        [ColaboradorAutorizacao]
         public IActionResult Painel() 
         {
             return View();
